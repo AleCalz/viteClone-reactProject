@@ -49,9 +49,9 @@ body{
     a{
       display: grid;
       place-content: center;
-      padding: 0.5rem 1rem;
-      padding: 0.5rem 2rem;
-      margin: 2rem 0 2rem 2rem;
+      // padding: 0.5rem 1rem;
+      padding: 0.5rem 1.5rem;
+      margin: 2rem 0 2rem 1rem;
       // margin-bottom: 2rem;
       border-radius: 30px;
       color: white;
@@ -86,13 +86,13 @@ body{
   .main-title{
     color: rgb(113, 55, 151);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
   }
     
   .text{
     color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   .tagline{
     color: #98989B;
@@ -108,6 +108,7 @@ body{
   // background-color: #555df3;
   
   #list-cards{
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -117,14 +118,14 @@ body{
       border-radius: 15%;
       aspect-ratio: 16/9;
       background-color: #202127;
-      padding: 2.5rem;
+      padding: 1.5rem;
       color: white;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       display: grid;
       grid-template-rows: 1fr 1fr 1fr;
 
       .card-emogi{
-        font-size: 30px;
+        font-size: 20px;
         padding: 0.5rem;
         width: 15%;
         background-color: #2B2F36;
@@ -132,10 +133,10 @@ body{
       }
       .card-title{
         margin-top: 1rem;
-        font-size: 25px; 
+        font-size: 20px; 
       }
       .card-txt{
-        font-size: 18px; 
+        font-size: 15px; 
         color: #9A9AA3;
       }
 
