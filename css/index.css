@@ -36,21 +36,49 @@ body {
 #banner #logo-container #logo {
   height: 300px;
 }
+#banner #section-tags {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+#banner #section-tags a {
+  display: grid;
+  place-content: center;
+  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#banner #section-tags .tag-purple {
+  background-color: #555df3;
+}
+#banner #section-tags .tag-purple:hover {
+  background-color: #747BFF;
+}
+#banner #section-tags .tag-grey {
+  background-color: #32373f;
+}
+#banner #section-tags .tag-grey:hover {
+  background-color: #414853;
+}
 
 .banner-content {
   grid-column: 1/2;
   border: 1px solid greenyellow;
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 .banner-content .main-title {
   color: rgb(113, 55, 151);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 .banner-content .text {
   color: rgb(255, 255, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2.5rem;
+  font-size: 4.5rem;
 }
 .banner-content .tagline {
   color: #98989B;
