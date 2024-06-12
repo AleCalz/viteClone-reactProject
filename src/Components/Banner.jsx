@@ -4,8 +4,8 @@ export default function Banner() {
     return(
         <section id="banner">
             <Titulo/>
-            {/* <Tags/> */}
             <Logo/>
+            {/* <Tags/> */}
 
         </section>
 
