@@ -124,14 +124,15 @@ body {
 }
 #fotter #footer-section {
   margin-left: 35%;
+  margin-top: 30px;
   color: #9A9AA3;
 }
 #fotter .sponsor {
-  padding: 1rem;
-  margin: 2rem;
+  padding: 0.5rem;
+  margin: 1.5rem;
   border: 1px solid lightgrey;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 15px;
 }
 #fotter .sponsor:hover {
   border: 1px solid rgb(153, 0, 84);
